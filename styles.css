@@ -1,0 +1,74 @@
+.back {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    display: block;
+    background-image: url('back1.png');
+    width: 3200px;
+    height: 900px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background:
+            linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+  }
+body {
+    font-family: 'Kaushan Script', cursive;
+    background-color: #0C2950;
+    z-index: -1;
+}
+.container {
+   width: 1000px;
+    margin: 0 auto;
+    background-color: #0C2950;
+    margin-bottom: 0px;
+    height: 3910px;
+}
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: #FAEA2A 1px 0 10px;
+    margin-top: 0px;
+}
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+    font-size: 24px;
+    color: #f5f3bf;
+    margin-top: 40px;
+    text-shadow: #0b0b0b 5px 0 10px;
+}
+.left {
+    width: 250px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    float: left;
+}
+.right {
+    width: 250px;
+    position: relative;
+   top: -20px;
+    left: 20px;
+    float: right;
+}
+#uran {
+ width: 200px;
+}
+#merc {
+    width: 200px;
+   }
+#jup {
+    width: 300px;
+   }
